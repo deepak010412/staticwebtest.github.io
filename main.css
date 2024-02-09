@@ -1,0 +1,132 @@
+<style>* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(9, 123, 132);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    color: white;
+    list-style: none;
+    margin: 25px;
+}
+
+nav ul li:hover {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.second_section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.first_section>div {
+    width: 30%;
+}
+
+.left_section {
+    font-size: 2.0rem;
+}
+
+.left_section .buttons {
+    padding: 30px 0;
+}
+
+.left_section .btn {
+    padding: 10px;
+    background: rgb(198, 204, 211);
+    color: rgb(0, 0, 0);
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right_section img {
+    width: 80%;
+}
+
+.highlighting {
+    color: rgb(127, 127, 255);
+}
+
+#element {
+    color: rgb(127, 127, 255);
+}
+
+main hr {
+    border: 0;
+    background: black;
+    height: 3.6px;
+    margin: 0px 0px;
+}
+
+.second_section h1 {
+    font-size: 1.7rem;
+}
+
+.text_gray {
+    color: gray;
+}
+
+.second_section .box {
+    background: black;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+footer {
+    background-color: aliceblue;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+</style>
